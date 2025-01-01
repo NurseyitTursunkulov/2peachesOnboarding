@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "2PeachesOnboarding2",
+    name: "PeachesOnboarding2",
     platforms: [.iOS(.v15)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "2PeachesOnboarding2",
-            targets: ["2PeachesOnboarding2"]),
+            name: "PeachesOnboarding2",
+            targets: ["PeachesOnboarding2"]),
     ],
     dependencies: [
         // Adding the CHIPageControl dependency from GitHub
@@ -20,7 +20,7 @@ let package = Package(
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "2PeachesOnboarding2",
+            name: "PeachesOnboarding2",
             dependencies: ["CHIPageControl"]
         ),
         
